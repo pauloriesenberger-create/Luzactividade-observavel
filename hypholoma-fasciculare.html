@@ -2,7 +2,7 @@
 <html lang="pt">
 <head>
   <meta charset="UTF-8">
-  <title>Hypholoma fasciculare — fluorescência UV</title>
+  <title>Hypholoma fasciculare — fluorescência sob UV</title>
 
   <style>
     body {
@@ -16,67 +16,136 @@
     h1, h2 {
       text-align: center;
       font-weight: normal;
+      margin-bottom: 0.5rem;
     }
 
-    .ficha {
+    h2 {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    .intro {
       max-width: 800px;
       margin: 2rem auto;
+      text-align: center;
       line-height: 1.6;
       font-size: 1rem;
-    }
-
-    .ficha strong {
-      color: #9aff9a;
+      opacity: 0.95;
     }
 
     .imagem {
+      max-width: 900px;
+      margin: 2.5rem auto;
       text-align: center;
-      margin: 2rem 0;
     }
 
     .imagem img {
       max-width: 100%;
+      border: none;
     }
 
     .legenda {
+      margin-top: 0.6rem;
       font-size: 0.9rem;
       opacity: 0.8;
-      margin-top: 0.5rem;
+    }
+
+    .ficha {
+      max-width: 800px;
+      margin: 3rem auto;
+      line-height: 1.7;
+      font-size: 1rem;
+    }
+
+    .ficha p {
+      margin-bottom: 1rem;
+    }
+
+    .ficha strong {
+      color: #9aff9a;
+      font-weight: normal;
+    }
+
+    .voltar {
+      text-align: center;
+      margin-top: 4rem;
     }
 
     a {
       color: #6dff6d;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 
 <body>
 
-<h1>Hypholoma fasciculare</h1>
-<h2>Fluorescência sob radiação ultravioleta</h2>
+  <h1>Hypholoma fasciculare</h1>
+  <h2>Fluorescência sob radiação ultravioleta</h2>
 
-<div class="imagem">
-  <img src="img/hypholoma_uv.jpg" alt="Hypholoma fasciculare sob radiação UV">
-  <div class="legenda">Hypholoma fasciculare sob radiação ultravioleta</div>
-</div>
+  <div class="intro">
+    <p>
+      Registo visual e observacional da resposta de <em>Hypholoma fasciculare</em>
+      à radiação ultravioleta, com especial atenção às diferenças entre
+      tecidos do corpo frutífero e micélio associado.
+    </p>
+  </div>
 
-<div class="ficha">
-  <p><strong>Local:</strong> Parque da Paz, Almada</p>
-  <p><strong>Data:</strong> 17 de fevereiro de 2014</p>
+  <!-- Imagem principal UV -->
+  <div class="imagem">
+    <img src="img/hypholoma_uv_01.jpg" alt="Hypholoma fasciculare sob radiação UV">
+    <div class="legenda">
+      Corpo frutífero de <em>Hypholoma fasciculare</em> sob radiação ultravioleta.
+    </div>
+  </div>
 
-  <p><strong>Habitat:</strong> Madeira morta, frutificação em grupo.</p>
+  <!-- Imagem micélio -->
+  <div class="imagem">
+    <img src="img/hypholoma_mycelium_uv.jpg" alt="Micélio fluorescente de Hypholoma fasciculare">
+    <div class="legenda">
+      Micélio associado apresentando fluorescência mais intensa sob UV.
+    </div>
+  </div>
 
-  <p><strong>Observações UV:</strong><br>
-    Sob radiação ultravioleta observou-se fluorescência verde-amarelada,
-  particularmente evidente no pé e nas lâminas, mantendo-se estável
-  durante a exposição.
-    O micélio associado apresenta uma resposta à radiação ultravioleta mais intensa e direta do que o corpo frutífero, surgindo visualmente “despido”, sem a atenuação observada nos tecidos diferenciados do carpóforo.
-</p>
-</div>
+  <!-- Imagem luz visível -->
+  <div class="imagem">
+    <img src="img/hypholoma_visible.jpg" alt="Hypholoma fasciculare em luz visível">
+    <div class="legenda">
+      O mesmo espécime em luz visível, para referência cromática e estrutural.
+    </div>
+  </div>
 
-<p style="text-align:center;">
-  <a href="index.html">← voltar à página principal</a>
-</p>
+  <!-- Ficha técnica -->
+  <div class="ficha">
+    <p><strong>Local:</strong> Parque da Paz, Almada, Portugal</p>
+    <p><strong>Data:</strong> fevereiro de 2025</p>
+
+    <p><strong>Habitat:</strong><br>
+      Madeira morta, frutificação gregária, associada a substrato lenhoso em decomposição.
+    </p>
+
+    <p><strong>Observações sob radiação ultravioleta:</strong><br>
+      Sob exposição à radiação UV observou-se fluorescência verde-amarelada,
+      visível no corpo frutífero, com destaque para determinadas zonas estruturais,
+      mantendo-se estável durante o período de observação.
+    </p>
+
+    <p><strong>Observações adicionais:</strong><br>
+      O micélio associado apresenta uma resposta à radiação ultravioleta mais intensa
+      e direta do que o corpo frutífero, surgindo visualmente “despido”, sem a atenuação
+      observada nos tecidos diferenciados do carpóforo.
+      Esta diferença sugere que a estrutura e/ou a camada superficial do corpo frutífero
+      poderá atuar como um filtro parcial da emissão observada no micélio.
+    </p>
+  </div>
+
+  <div class="voltar">
+    <a href="index.html">← voltar à página principal</a>
+  </div>
 
 </body>
 </html>
