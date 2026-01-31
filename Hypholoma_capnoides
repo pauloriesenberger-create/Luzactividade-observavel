@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Hypholoma capnoides — Fluorescência</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, serif;
+      background: #000;
+      color: #d6ffd6;
+      text-align: center;
+    }
+
+    header {
+      padding: 3rem 1rem 1rem;
+    }
+
+    h1 {
+      font-size: 2.4rem;
+      margin-bottom: 0.3rem;
+      color: #7CFF7C;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      font-style: italic;
+      font-weight: normal;
+      opacity: 0.85;
+    }
+
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem 1.5rem;
+      line-height: 1.7;
+      font-size: 1.05rem;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.2rem;
+      margin-top: 2rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 6px;
+      box-shadow: 0 0 18px rgba(0,255,120,0.15);
+    }
+
+    figcaption {
+      font-size: 0.85rem;
+      opacity: 0.8;
+      margin-top: 0.4rem;
+    }
+
+    footer {
+      padding: 2rem;
+      font-size: 0.85rem;
+      opacity: 0.6;
+    }
+
+    a {
+      color: #6dffd6;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Hypholoma capnoides</h1>
+  <h2>Fluorescência observada sob radiação ultravioleta</h2>
+</header>
+
+<section>
+  <p>
+    Espécime observado a frutificar sobre pinha de conífera, apresentando micélio
+    abundante de coloração branca. O chapéu revela tonalidades mais escuras e
+    alaranjadas quando comparado com <em>Hypholoma fasciculare</em>.
+  </p>
+
+  <p>
+    A impressão de esporos apresentou coloração castanho-clara a canela, compatível
+    com <em>Hypholoma capnoides</em>.
+  </p>
+
+  <p>
+    Sob radiação ultravioleta (365 nm), observou-se fluorescência verde intensa
+    restrita às lâminas. O chapéu, o pé e o micélio exibiram resposta fluorescente
+    ausente ou residual.
+  </p>
+
+  <p>
+    Este padrão sugere uma associação da fluorescência ao himénio, possivelmente
+    relacionada com processos fisiológicos ligados à maturação e esporulação,
+    contrastando com a fluorescência mais difusa observada em
+    <em>Hypholoma fasciculare</em>.
+  </p>
+
+  <div class="gallery">
+
+    <figure>
+      <img src="img/capnoides/capnoides_uv_lamelas.jpg" alt="Lâminas sob UV">
+      <figcaption>Lâminas com fluorescência verde intensa sob UV</figcaption>
+    </figure>
+
+    <figure>
+      <img src="img/capnoides/capnoides_uv_lateral.jpg" alt="Vista lateral sob UV">
+      <figcaption>Vista lateral — fluorescência restrita ao himénio</figcaption>
+    </figure>
+
+    <figure>
+      <img src="img/capnoides/capnoides_esporada.jpg" alt="Impressão de esporos">
+      <figcaption>Impressão de esporos — coloração canela</figcaption>
+    </figure>
+
+  </div>
+</section>
+
+<footer>
+  <p>
+    <a href="index.html">← voltar à página principal</a>
+  </p>
+</footer>
+
+</body>
+</html>
