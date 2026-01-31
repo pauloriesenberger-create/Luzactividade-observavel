@@ -1,17 +1,15 @@
 <!DOCTYPE html>
- <html lang="pt">
- <head>
+<html lang="pt">
+<head>
   <meta charset="UTF-8">
   <title>Hypholoma capnoides — Fluorescência</title>
   <style>
-    <body>
-      <main>
-      {
-      <h1 style="color: lime; background:black;">TESTE CAPNOIDES</h1>
+    /* ESTILO GERAL */
+    body {
       margin: 0;
       font-family: Georgia, serif;
-      background: #000;
-      color: #d6ffd6;
+      background-color: #000; /* fundo negro */
+      color: #d6ffd6;          /* letras verde-claro */
       text-align: center;
     }
 
@@ -75,8 +73,8 @@
     }
   </style>
 </head>
-</main>
-</body>
+
+<body>
 
 <header>
   <h1>Hypholoma capnoides</h1>
@@ -86,12 +84,12 @@
 <section>
   <p>
     Espécime observado a frutificar sobre pinha de conífera, apresentando micélio
-    abundante de coloração branca. O chapéu revela tonalidades mais escuras e
-    alaranjadas quando comparado com <em>Hypholoma fasciculare</em>.
+    abundante e de coloração branca. O chapéu apresenta tonalidade mais escura
+    e alaranjada quando comparado com <em>Hypholoma fasciculare</em>.
   </p>
 
   <p>
-    A impressão de esporos apresentou coloração castanho-clara a canela, compatível
+    A impressão de esporos revelou coloração castanho-clara a canela, compatível
     com <em>Hypholoma capnoides</em>.
   </p>
 
@@ -102,7 +100,7 @@
   </p>
 
   <p>
-    Este padrão sugere uma associação da fluorescência ao himénio, possivelmente
+    Este padrão sugere que a fluorescência está associada ao himénio, possivelmente
     relacionada com processos fisiológicos ligados à maturação e esporulação,
     contrastando com a fluorescência mais difusa observada em
     <em>Hypholoma fasciculare</em>.
@@ -111,17 +109,17 @@
   <div class="gallery">
 
     <figure>
-      <img src="img/capnoides/capnoides_uv_lamelas.jpg" alt="Lâminas sob UV">
+      <img src="capnoides_uv_lamelas.jpg" alt="Lâminas sob UV">
       <figcaption>Lâminas com fluorescência verde intensa sob UV</figcaption>
     </figure>
 
     <figure>
-      <img src="img/capnoides/capnoides_uv_lateral.jpg" alt="Vista lateral sob UV">
+      <img src="capnoides_uv_lateral.jpg" alt="Vista lateral sob UV">
       <figcaption>Vista lateral — fluorescência restrita ao himénio</figcaption>
     </figure>
 
     <figure>
-      <img src="img/capnoides/capnoides_esporada.jpg" alt="Impressão de esporos">
+      <img src="capnoides_esporada.jpg" alt="Impressão de esporos">
       <figcaption>Impressão de esporos — coloração canela</figcaption>
     </figure>
 
